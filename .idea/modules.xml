@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ex1 - Introduce to Java/Ex1 - Introduce to Java.iml" filepath="$PROJECT_DIR$/Ex1 - Introduce to Java/Ex1 - Introduce to Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex2 - Loop/Ex2 - Loop.iml" filepath="$PROJECT_DIR$/Ex2 - Loop/Ex2 - Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex3 - Array/Ex3 - Array.iml" filepath="$PROJECT_DIR$/Ex3 - Array/Ex3 - Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Module2_APJa.iml" filepath="$PROJECT_DIR$/.idea/Module2_APJa.iml" />
+    </modules>
+  </component>
+</project>
