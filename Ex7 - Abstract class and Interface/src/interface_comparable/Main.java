@@ -16,7 +16,5 @@ public class Main {
         for (ComparableCircle circle : circles) {
             System.out.println(circle);
         }
-
-
     }
 }
