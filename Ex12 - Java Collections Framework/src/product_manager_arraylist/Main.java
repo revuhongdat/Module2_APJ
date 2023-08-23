@@ -2,16 +2,16 @@ package product_manager_arraylist;
 
 public class Main {
     public static void main(String[] args) {
-        ProductManager productsList = new ProductManager();
-        productsList.addProduct("A",1,1000);
-        productsList.addProduct("B",2,2500);
-        productsList.addProduct("D",3,1500);
-        productsList.addProduct("C",4,5000);
-        productsList.sortAscending();
-        productsList.sortDescending();
-//        System.out.println(productsList.searchProductByName("A"));
-        productsList.editProductWithId(1,"DAT",10000000);
-        productsList.deleteProductWithId(1);
-        productsList.displayProductsList();
+        ProductManager aaaa = new ProductManager();
+        aaaa.addProduct("A",1,1000);
+        aaaa.addProduct("B",2,2500);
+        aaaa.addProduct("D",3,1500);
+        aaaa.addProduct("C",4,5000);
+        aaaa.sortAscending();
+        aaaa.sortDescending();
+//        System.out.println(aaaa.searchProductByName("A"));
+        aaaa.editProductWithId(1,"DAT",10000000);
+        aaaa.deleteProductWithId(1);
+        aaaa.displayProductsList();
     }
 }
