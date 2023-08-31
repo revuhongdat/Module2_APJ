@@ -10,7 +10,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String filePath = sc.nextLine();
         int max = findMax(readAndWriteFile.readFile(filePath));
-        readAndWriteFile.writeFile("result.txt", max);
+        readAndWriteFile.writeFile("source.txt", max);
     }
     public static int findMax(List<Integer> list) {
         int max = list.get(0);

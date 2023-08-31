@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 //        try {
             ReadAndWriteFile readAndWriteFile = new ReadAndWriteFile();
+            readAndWriteFile.readFile("D:\\Module2_APJ\\Ex16 - File Text\\src\\copy_file\\source.txt");
 //            System.out.println("Enter the source file link: ");
 
 //            Scanner sc = new Scanner(System.in);
@@ -19,7 +20,7 @@ public class Main {
 //                throw new FileAlreadyExistsException(filePathOut);
 //            }
 
-            readAndWriteFile.writeFile("D:\\Module2_APJ\\Ex16 - File Text\\src\\copy_file\\result.txt",listIn);
+            readAndWriteFile.writeFile("D:\\Module2_APJ\\Ex16 - File Text\\src\\copy_file\\source.txt",listIn);
             System.out.println("Copy file successfully");
             System.out.println("The number of characters in the file is " + listIn.size());
 //        } catch (FileAlreadyExistsException e) {

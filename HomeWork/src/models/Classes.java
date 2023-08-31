@@ -1,3 +1,5 @@
+package models;
+
 public class Classes {
     private int id;
     private String name;
@@ -6,11 +8,9 @@ public class Classes {
         this.id = id;
         this.name = name;
     }
-
     public int getId() {
-        return this.id;
+        return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -21,5 +21,10 @@ public class Classes {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Classes{" + "id=" + id + ", name=" + name + '}';
     }
 }

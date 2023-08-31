@@ -1,4 +1,6 @@
-public class Student {
+package models;
+
+public class Students {
     private int id;
     private String name;
     private int age;
@@ -6,7 +8,7 @@ public class Student {
     private double avgPoint;
     private Classes classes;
 
-    public Student(int id, String name, int age, String gender, double avgPoint, Classes classes) {
+    public Students(int id, String name, int age, String gender, double avgPoint, Classes classes) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -16,7 +18,7 @@ public class Student {
     }
 
     public int getId() {
-        return this.id;
+        return id;
     }
 
     public void setId(int id) {
@@ -24,7 +26,7 @@ public class Student {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setName(String name) {
@@ -32,7 +34,7 @@ public class Student {
     }
 
     public int getAge() {
-        return this.age;
+        return age;
     }
 
     public void setAge(int age) {
@@ -40,7 +42,7 @@ public class Student {
     }
 
     public String getGender() {
-        return this.gender;
+        return gender;
     }
 
     public void setGender(String gender) {
@@ -48,7 +50,7 @@ public class Student {
     }
 
     public double getAvgPoint() {
-        return this.avgPoint;
+        return avgPoint;
     }
 
     public void setAvgPoint(double avgPoint) {
@@ -56,7 +58,7 @@ public class Student {
     }
 
     public Classes getClasses() {
-        return this.classes;
+        return classes;
     }
 
     public void setClasses(Classes classes) {
@@ -65,12 +67,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + getName() + '\'' +
-                ", gender='" + getGender() + '\'' +
-                ", avgPoint=" + getAvgPoint() +
-                ", Classes='" + getClasses() + '\'' +
-                '}';
+        return "Students{" + "id=" + id + ", name=" + name + ", age=" + age +
+                ", gender=" + gender + ", avgPoint=" + avgPoint + ", classes=" + classes + '}';
     }
 }
